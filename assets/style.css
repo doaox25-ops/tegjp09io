@@ -1,16 +1,28 @@
 body {
-  font-family: serif;
-  line-height: 1.6;
+  font-family: sans-serif;
   max-width: 700px;
   margin: 40px auto;
   padding: 0 12px;
+  line-height: 1.6;
 }
 
-h1, h2 {
-  font-family: sans-serif;
+h1, h2, h3 {
   text-align: center;
 }
 
-p {
-  margin-bottom: 12px;
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.menu a,
+a {
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  text-align: center;
+  color: #000;
 }
